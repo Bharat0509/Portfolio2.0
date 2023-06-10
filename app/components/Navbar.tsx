@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <div className='lg:pb-0'>
             <div className='mx-auto container max-w-[1280px]'>
-                <header className='py-2 px-4 lg:px-0 md:py-0 flex justify-between items-center fixed top-0 left-0 w-full lg:static z-[1111111111] transition-all duration-500 ease-in-out bg-white/90 md:bg-transparent'>
+                <header className='py-2 px-4 lg:px-0 md:py-0 flex justify-between items-center fixed top-0 left-0 w-full lg:static z-[1111111111] bg-white/90 md:bg-transparent transition-all duration-300'>
                     <div className='md:block font-medium text-2xl text-red-600 p-2 '>
                         {/* <SiCodenewbie size={50} /> */}
                         <h1 className='font-mono italic'>
@@ -44,13 +44,13 @@ const Navbar = () => {
                             ))}
                         </ul>
                     </nav>
-                    {isMobileNav && (
+                    {
                         <div
                             className={`fixed ${
-                                isMobileNav ? "top-0" : "top-[-400%]"
-                            } left-0  w-[100vw] h-[100vh] bg-gradient-to-b from-[#933030b6] to-[#fa525281] transition-all duration-500 ease-in-out`}
+                                isMobileNav ? "top-0" : "top-[400%]"
+                            } left-0  w-[100vw] h-[100vh] bg-gray-800/90 transition-all duration-500 ease-in-out pt-12`}
                         >
-                            <ul className=' md:flex flex-col md:flex-row my-12'>
+                            <ul className='flex flex-col gap-2 my-12 text-center'>
                                 {routes.map((route) => (
                                     <LiComponent
                                         key={route.href}
@@ -64,14 +64,14 @@ const Navbar = () => {
                             </ul>
                             {isMobileNav && (
                                 <div
-                                    className='md:hidden flex  m-auto justify-center text-black-400 text-4xl rounded-full active:bg-red-600 h-12 w-12 active:text-white'
+                                    className='md:hidden flex  m-auto justify-center text-white/60 text-4xl rounded-full active:bg-red-600 h-12 w-12 active:text-white'
                                     onClick={(e) => setIsMobileNav(false)}
                                 >
                                     <RiCloseFill className='h-12 w-12' />
                                 </div>
                             )}
                         </div>
-                    )}
+                    }
                 </header>
             </div>
         </div>

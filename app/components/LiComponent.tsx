@@ -22,10 +22,11 @@ const LiComponent: React.FC<LiComponentProps> = ({
                     active
                         ? "bg-gradient-to-r from-[#FA5252] to-[#DD2476] text-white"
                         : ""
-                }`}
+                }
+                `}
                 href={href}
             >
-                <span className='mr-2 text-xl'>
+                <span className='mr-2 text-xl  '>
                     <Icon />
                 </span>
                 {label}

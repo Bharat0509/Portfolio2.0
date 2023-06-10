@@ -5,14 +5,19 @@ import { BsFillCloudDownloadFill } from "react-icons/bs";
 const Hero = () => {
     return (
         <div className='flex flex-col justify-center items-center pt-32 lg:pt-0 '>
-            <div className='bg-red-500 h-60 w-60 overflow-hidden image-blob'>
-                <Image src='/myImg.jpg' alt='bharat' height={400} width={400} />
+            <div className='bg-red-500/10 h-72 w-72 overflow-hidden image-blob'>
+                <Image
+                    src='/myImg.jpg'
+                    alt='Bhammar Bharat'
+                    height={400}
+                    width={400}
+                />
             </div>
             <div>
                 <div className='font-semibold text-3xl mt-8 text-center'>
                     Bharat Bhammar
                 </div>
-                <div className='flex items-center justify-center w-full font-semibold text-gray-500 text-sm mt-2'>
+                <div className='flex items-center justify-center w-full  text-gray-500 text-sm mt-2'>
                     Full Stack Web Developer
                 </div>
                 <div className='flex justify-center my-6'>

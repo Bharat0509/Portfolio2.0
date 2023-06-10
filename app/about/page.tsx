@@ -99,12 +99,15 @@ const about = () => {
                     <Heading title='About Me' />
 
                     <div className='flex flex-col rounded-full md:flex-row md:gap-10 items-center'>
-                        <div className='relative col-span-12 md:col-span-4  w-1/2 h-96 rounded-3xl overflow-hidden'>
+                        <div
+                            className='object-cover relative col-span-12 md:col-span-4  
+                        w-[90%]  md:w-1/2 h-96 rounded-3xl overflow-hidden'
+                        >
                             <Image
                                 alt='oc'
                                 src='/myImg.jpg'
                                 fill
-                                className='bg-cover'
+                                className='bg-cover scale-150'
                             />
                         </div>
                         <div className='mt-4 md:mt-0 space-y-2.5'>
