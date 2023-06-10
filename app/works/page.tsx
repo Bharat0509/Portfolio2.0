@@ -6,7 +6,11 @@ import { BsCode } from "react-icons/bs";
 
 import { FiExternalLink } from "react-icons/fi";
 import Link from "next/link";
-
+export const metadata = {
+    title: "Bharat Bhammar's Project and Works - Full Stack Web Developer",
+    description:
+        "Bharat Bhammar is a skilled Full Stack Web Developer with expertise in JavaScript, ReactJS, Node.js, and more. Explore Bharat's portfolio and projects.",
+};
 const works = () => {
     const myWorks = [
         {
@@ -92,7 +96,7 @@ const works = () => {
                         {myWorks.map((item) => (
                             <div
                                 key={item.project}
-                                className={`flex flex-col gap-2 w-[49%] rounded-md overflow-hidden ${item.bg}`}
+                                className={`flex flex-col justify-between gap-2 sm:w-full md:w-[48%] rounded-md overflow-hidden ${item.bg}`}
                             >
                                 <div className='relative w-full h-80'>
                                     <Image
@@ -132,17 +136,6 @@ const works = () => {
                                 </div>
                                 <div className='p-4'>{item.desc}</div>
                                 <div className='relative'>
-                                    <div className=' p-4 flex flex-col justify-center -bottom-10 -right-5 m-auto absolute bg-green-600/10 rounded-full h-40 w-40'>
-                                        <h3 className='font-bold text-red'>
-                                            Demo Account
-                                        </h3>
-                                        <div className='text-xs font-semibold '>
-                                            UserName: {item.extra.username}
-                                        </div>
-                                        <div className='text-xs font-semibold '>
-                                            Password: {item.extra.password}
-                                        </div>
-                                    </div>
                                     <div className='flex items-center w-full p-4 gap-4 '>
                                         <Link
                                             href='#'

@@ -16,18 +16,18 @@ const Hero = () => {
                     Full Stack Web Developer
                 </div>
                 <div className='flex justify-center my-6'>
-                    <div className='px-2 rounded-md  cursor-pointer font-poppins bg-white text-blue-800 font-medium mx-2.5 flex text-xtiny py-2.5 md:px-3 xl:px-3 items-center transition-all duration-300 ease-in-out  hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] '>
+                    <div className='px-2 rounded-md  cursor-pointer font-poppins bg-white text-blue-800 font-medium mx-2.5 flex text-sm py-2.5 md:px-3 xl:px-3 items-center transition-all duration-300 ease-in-out  hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] '>
                         <FaFacebookF />
                     </div>
-                    <div className='px-2 rounded-md  cursor-pointer font-poppins bg-white text-[#1c9cea] font-medium mx-2.5 flex text-xtiny py-2.5 md:px-3 xl:px-3 items-center transition-all duration-300 ease-in-out  hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476]'>
+                    <div className='px-2 rounded-md  cursor-pointer font-poppins bg-white text-[#1c9cea] font-medium mx-2.5 flex text-sm py-2.5 md:px-3 xl:px-3 items-center transition-all duration-300 ease-in-out  hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476]'>
                         <FaTwitter size={22} />
                     </div>
 
-                    <div className='px-2 rounded-md  cursor-pointer font-poppins bg-white text-black font-medium mx-2.5 flex text-xtiny py-2.5 md:px-3 xl:px-3 items-center transition-all duration-300 ease-in-out  hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476]'>
+                    <div className='px-2 rounded-md  cursor-pointer font-poppins bg-white text-black font-medium mx-2.5 flex text-sm py-2.5 md:px-3 xl:px-3 items-center transition-all duration-300 ease-in-out  hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476]'>
                         <FaGithub size={22} />
                     </div>
 
-                    <div className='px-2 rounded-md  cursor-pointer font-poppins bg-white text-[#0072b1] font-medium mx-2.5 flex text-xtiny py-2.5 md:px-3 xl:px-3 items-center transition-all duration-300 ease-in-out  hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476]'>
+                    <div className='px-2 rounded-md  cursor-pointer font-poppins bg-white text-[#0072b1] font-medium mx-2.5 flex text-sm py-2.5 md:px-3 xl:px-3 items-center transition-all duration-300 ease-in-out  hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476]'>
                         <FaLinkedinIn size={22} />
                     </div>
                 </div>

@@ -4,7 +4,11 @@ import Heading from "../components/Heading";
 import { FcPhone } from "react-icons/fc";
 import { FaMap } from "react-icons/fa";
 import Input from "../components/Input";
-
+export const metadata = {
+    title: "Contact Bharat Bhammar - Full Stack Web Developer",
+    description:
+        "Bharat Bhammar is a skilled Full Stack Web Developer with expertise in JavaScript, ReactJS, Node.js, and more. Explore Bharat's portfolio and projects.",
+};
 const works = () => {
     const handleChange = () => {};
     const myContact = [
@@ -35,12 +39,12 @@ const works = () => {
             <div data-aos='fade' className='aos-init aos-animate'>
                 <div className='pt-12'>
                     <Heading title='Contact' />
-                    <div className='flex flex-col md:flex-row gap-16'>
-                        <div className='flex flex-col gap-4 w-1/4'>
+                    <div className='flex flex-col md:flex-row gap-10'>
+                        <div className='flex flex-col gap-4 md:w-[40%]'>
                             {myContact.map((item) => (
                                 <div
                                     key={item.label}
-                                    className={`rounded-lg p-4 ${item.bg}`}
+                                    className={`rounded-lg p-2 md:p-4 ${item.bg}`}
                                 >
                                     <div className='flex gap-2 text-2xl items-center my-4'>
                                         <span className='text-3xl'>
@@ -60,7 +64,7 @@ const works = () => {
                                 </div>
                             ))}
                         </div>
-                        <div className='w-2/3  rounded-lg p-10 bg-gray-600/10 h-auto'>
+                        <div className='md:w-2/3  rounded-lg p-4 md:p-10 bg-gray-600/10 h-auto'>
                             <h3 className='text-2xl text-gray-600 leading-10'>
                                 I`m always open to discussing product
                                 <br />

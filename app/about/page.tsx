@@ -12,7 +12,11 @@ import { RiPagesFill } from "react-icons/ri";
 import { GoTextSize } from "react-icons/go";
 import { GrGraphQl } from "react-icons/gr";
 import Heading from "../components/Heading";
-
+export const metadata = {
+    title: "About Bharat Bhammar - Full Stack Web Developer",
+    description:
+        "Bharat Bhammar is a skilled Full Stack Web Developer with expertise in JavaScript, ReactJS, Node.js, and more. Explore Bharat's portfolio and projects.",
+};
 const about = () => {
     const personalInfo = [
         {

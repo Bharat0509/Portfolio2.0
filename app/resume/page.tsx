@@ -17,6 +17,11 @@ import { AiTwotoneExperiment } from "react-icons/ai";
 import { LuFolderSearch2 } from "react-icons/lu";
 import Heading from "../components/Heading";
 import { IoMdSchool } from "react-icons/io";
+export const metadata = {
+    title: "Bharat Bhammar's Resume - Full Stack Web Developer",
+    description:
+        "Bharat Bhammar is a skilled Full Stack Web Developer with expertise in JavaScript, ReactJS, Node.js, and more. Explore Bharat's portfolio and projects.",
+};
 
 const resume = () => {
     const myEducation = [
