@@ -4,11 +4,7 @@ import Heading from "../components/Heading";
 import { FcPhone } from "react-icons/fc";
 import { FaMap } from "react-icons/fa";
 import Input from "../components/Input";
-export const metadata = {
-    title: "Contact Bharat Bhammar - Full Stack Web Developer",
-    description:
-        "Bharat Bhammar is a skilled Full Stack Web Developer with expertise in JavaScript, ReactJS, Node.js, and more. Explore Bharat's portfolio and projects.",
-};
+
 const works = () => {
     const handleChange = () => {};
     const myContact = [
