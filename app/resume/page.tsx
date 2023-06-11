@@ -134,7 +134,7 @@ const resume = () => {
     ];
 
     return (
-        <div className='container lg:rounded-2xl bg-white px-4 sm:px-5 md:px-10 md:pt-10 lg:px-20 max-w-[1280px] mx-auto h-auto'>
+        <div className='container lg:rounded-2xl bg-white px-4 sm:px-5 md:px-10 md:pt-10 lg:px-20 max-w-[1280px] mx-auto h-auto dark:bg-[#111] text-white/80'>
             <div data-aos='fade' className='aos-init aos-animate'>
                 <div className='pt-12'>
                     <Heading title='Resume' />
@@ -155,7 +155,7 @@ const resume = () => {
                                     className={`p-4 ${item.bg} w-full lg:w-[31%] md:w-[45%]  rounded-lg space-y-2 relative hover:shadow-md`}
                                 >
                                     <span
-                                        className={`text-sm text-gray-600 font-medium`}
+                                        className={`text-sm text-gray-600 font-medium dark:text-gray-400`}
                                     >
                                         {item.year}
                                     </span>
@@ -163,11 +163,11 @@ const resume = () => {
                                         {item.course}
                                     </div>
 
-                                    <div className=' text-gray-600'>
+                                    <div className=' text-gray-600 dark:text-gray-400'>
                                         {item.organization}
                                     </div>
-                                    <div className='absolute shadow-sm bg-white p-1 pl-4 w-fit top-1 right-0 text-green rounded-l-full'>
-                                        <span className='font-medium text-gray-600'>
+                                    <div className='absolute shadow-sm bg-white dark:bg-white/70 p-1 pl-4 w-fit top-1 right-0 text-green rounded-l-full'>
+                                        <span className='font-medium text-gray-600 '>
                                             {item.academic.label}:{" "}
                                         </span>
                                         <span className='font-medium text-green-600 pr-2'>
@@ -185,7 +185,7 @@ const resume = () => {
                                 <span className='text-[#f95054]'>
                                     <FaAward size={32} />
                                 </span>
-                                Awards
+                                Achievements
                             </h3>
                         </div>
                         <div className='flex flex-col md:flex-row flex-wrap gap-4 my-12'>
@@ -195,15 +195,15 @@ const resume = () => {
                                     className={`p-4 ${item.bg} w-full lg:w-[31%] md:w-[45%]  rounded-lg space-y-2 relative hover:shadow-md`}
                                 >
                                     <span
-                                        className={`text-sm text-gray-600 font-medium`}
+                                        className={`text-sm text-gray-600 font-medium dark:text-gray-400`}
                                     >
                                         {item.year}
                                     </span>
-                                    <div className='font-semibold t'>
+                                    <div className='font-semibold '>
                                         {item.course}
                                     </div>
 
-                                    <div className=' text-gray-600'>
+                                    <div className=' text-gray-600 dark:text-gray-400'>
                                         {item.organization}
                                     </div>
                                 </div>

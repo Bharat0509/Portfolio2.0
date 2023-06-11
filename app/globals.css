@@ -7,6 +7,12 @@
     background-image: url('/bg.jpg');
 }
 
+.bg-darkBg {
+    background-image: url('/darkBg.jpg');
+
+}
+
+
 .image-blob {
     border-radius: 54% 46% 40% 60% / 52% 43% 57% 48%;
     animation: bloby-animation 10s infinite alternate;

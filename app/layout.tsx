@@ -18,9 +18,9 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang='en' style={{ colorScheme: "light" }}>
+        <html lang='en' className='dark' style={{ colorScheme: "dark" }}>
             <body className={roboto.className}>
-                <div className='bg-homeBg min-h-screen bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full'>
+                <div className='bg-darkBg min-h-screen bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full dark:bg-darkBg'>
                     <Navbar />
 
                     {children}

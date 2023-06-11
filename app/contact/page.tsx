@@ -31,7 +31,7 @@ const works = () => {
         },
     ];
     return (
-        <div className='container lg:rounded-2xl bg-white px-4 sm:px-5 md:px-10 lg:px-20 max-w-[1280px] h-auto mx-auto'>
+        <div className='container lg:rounded-2xl bg-white px-4 sm:px-5 md:px-10 lg:px-20 max-w-[1280px] h-auto mx-auto dark:bg-[#111] dark:text-white/90'>
             <div data-aos='fade' className='aos-init aos-animate'>
                 <div className='pt-12'>
                     <Heading title='Contact' />
@@ -51,20 +51,20 @@ const works = () => {
                                         </span>
                                         :
                                     </div>
-                                    <div className=' pl-4 text-gray-600 my-1'>
+                                    <div className=' pl-4 text-gray-600 my-1 dark:text-gray-400'>
                                         {item.line1}
                                     </div>
-                                    <div className=' pl-4 text-gray-600 my-1'>
+                                    <div className=' pl-4 text-gray-600 my-1 dark:text-gray-400'>
                                         {item.line2}
                                     </div>
                                 </div>
                             ))}
                         </div>
                         <div className='md:w-2/3  rounded-lg p-4 md:p-10 bg-gray-600/10 h-auto'>
-                            <h3 className='text-2xl text-gray-600 leading-10'>
+                            <h3 className='text-2xl text-gray-600 leading-10 dark:text-gray-400'>
                                 I`m always open to discussing product
                                 <br />
-                                <span className='font-semibold text-gray-700'>
+                                <span className='font-semibold text-gray-700 dark:text-gray-400'>
                                     design work or freelance work.
                                 </span>
                             </h3>
@@ -99,7 +99,7 @@ const works = () => {
                         </div>
                     </div>
 
-                    <div className='py-4 w-full text-center text-gray-600'>
+                    <div className='py-4 w-full text-center text-gray-600 dark:text-gray-400'>
                         © 2023 All Rights Reserved by Bharat.
                     </div>
                 </div>

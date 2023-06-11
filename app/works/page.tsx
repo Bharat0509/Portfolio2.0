@@ -82,12 +82,7 @@ const works = () => {
     return (
         <div
             className='container lg:rounded-2xl bg-white px-4 sm:px-5 md:px-10 md:pt-10
-        
-        
-        
-        
-        
-         lg:px-20 max-w-[1280px] h-auto mx-auto'
+         lg:px-20 max-w-[1280px] h-auto mx-auto dark:bg-[#111] dark:text-white/80'
         >
             <div data-aos='fade' className='aos-init aos-animate'>
                 <div className='pt-12'>

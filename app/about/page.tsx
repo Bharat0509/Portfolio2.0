@@ -93,7 +93,7 @@ const about = () => {
         },
     ];
     return (
-        <div className='container lg:rounded-2xl bg-white px-4 sm:px-5 md:px-10 md:pt-10 lg:px-20 max-w-[1280px] mx-auto h-auto'>
+        <div className='container lg:rounded-2xl bg-white px-4 sm:px-5 md:px-10 md:pt-10 lg:px-20 max-w-[1280px] mx-auto h-auto dark:bg-[#111] text-white/80'>
             <div data-aos='fade' className='aos-init aos-animate'>
                 <div className='pt-12'>
                     <Heading title='About Me' />
@@ -101,7 +101,7 @@ const about = () => {
                     <div className='flex flex-col rounded-full md:flex-row md:gap-10 items-center'>
                         <div
                             className='object-cover relative col-span-12 md:col-span-4  
-                        w-[90%]  md:w-1/2 h-96 rounded-3xl overflow-hidden'
+                        w-[90%]  md:w-1/2 h-80 rounded-3xl overflow-hidden '
                         >
                             <Image
                                 alt='oc'
@@ -137,7 +137,7 @@ const about = () => {
                                     {personalInfo.map((item) => (
                                         <div key={item.label} className='flex'>
                                             <span
-                                                className={`text-oriange shadow-md mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 ${item.color}`}
+                                                className={`text-oriange shadow-md mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 ${item.color}  dark:bg-[#212020]`}
                                             >
                                                 {item.icon}
                                             </span>
@@ -148,7 +148,7 @@ const about = () => {
                                                 <h2 className='font-medium cursor-pointer '>
                                                     <a
                                                         href={item.href}
-                                                        className='hover:text-[#FA5252] duration-300 transition'
+                                                        className='hover:text-[#FA5252] dark:text-white/80 duration-300 transition'
                                                     >
                                                         {item.value}
                                                     </a>
@@ -161,7 +161,7 @@ const about = () => {
                         </div>
                     </div>
                     <div className='mt-12 pb-12'>
-                        <h3 className='text-[35px]  font-medium pb-5'>
+                        <h3 className='text-[35px] font-medium pb-5 dark:text-white/80'>
                             What I do!
                         </h3>
                         <div className='flex flex-wrap items-center justify-center gap-4'>
@@ -176,7 +176,7 @@ const about = () => {
                                         >
                                             {item.icon}
                                         </span>
-                                        <span className='my-auto pl-2 text-xl font-semibold  '>
+                                        <span className='my-auto pl-2 text-xl font-semibold dark:text-white/80 '>
                                             {item.label}
                                         </span>
                                     </div>
